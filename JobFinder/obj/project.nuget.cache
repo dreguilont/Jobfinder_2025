@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RwVXr9vt/JCLuP6G/fJZoN4IyOoeMe3FwfAmxkEEE1RiPq5a/ydw8oYg194L2732u5yV8HSo1McARzYdKG40Wg==",
+  "dgSpecHash": "D6th5IwdFkHApOT0n3mzjNv+hlsk1AjQBg36KC7XBJcQqMz9q98cHs0Og1WaLNSQBYlj771FDZBGKEJuDhnMIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\tfg\\tfg2025\\TFG_2025\\JobFinder\\JobFinder.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\Jobfinder\\JobFinder\\JobFinder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
