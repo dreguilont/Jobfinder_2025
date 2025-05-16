@@ -1,0 +1,42 @@
+﻿@model JobFinder.Core.Models.AuthModel
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="container mt-5">
+    <form asp-action="Register" class="col-md-6 offset-md-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Usuario" class="form-label"></label>
+            <input asp-for="Usuario" class="form-control" />
+            <span asp-validation-for="Usuario" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <!-- Repetir para los demás campos -->
+
+        <div class="form-group form-check">
+            <input asp-for="Transporte" class="form-check-input" />
+            <label asp-for="Transporte" class="form-check-label"></label>
+        </div>
+
+        <div class="form-group form-check">
+            <input asp-for="EsEmpresa" class="form-check-input" />
+            <label asp-for="EsEmpresa" class="form-check-label"></label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
